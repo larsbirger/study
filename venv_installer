@@ -21,7 +21,7 @@ executing==2.2.1
 fastjsonschema==2.22.2
 fonttools==4.64.0
 fqdn==1.5.1
-gendir==0.2.0
+gendir==0.3.0
 h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
@@ -80,7 +80,7 @@ Pygments==2.21.0
 pyparsing==3.3.2
 python-dateutil==2.9.0.post0
 python-json-logger==4.2.0
-PyYAML==6.0.3
+PyYAML==6.0.4
 pyzmq==27.2.0
 referencing==0.37.0
 requests==2.34.2
