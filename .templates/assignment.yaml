@@ -1,0 +1,37 @@
+structure:
+  - type: directory
+    name: "{name}"
+    contents:
+      - type: file
+        name: "README.md"
+        copy_from: ".templates_markdown_files/assignment_readme.md"
+      - type: directory
+        name: "input"
+        contents:
+          - type: file
+            name: "README.md"
+            copy_from: ".templates_markdown_files/assignment_input_readme.md"
+      - type: directory
+        name: "workspace"
+        contents:
+          - type: file
+            name: "README.md"
+            copy_from: ".templates_markdown_files/assignment_workspace_readme.md"
+      - type: directory
+        name: "assets"
+        contents:
+          - type: file
+            name: "README.md"
+            copy_from: ".templates_markdown_files/assignment_assets_readme.md"
+      - type: directory
+        name: "output"
+        contents:
+          - type: file
+            name: "README.md"
+            copy_from: ".templates_markdown_files/assignment_output_readme.md"
+
+inputs:
+  - type: text
+    name: name
+    description: "name of the assignment folder"
+    default: "assignment"

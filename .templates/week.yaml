@@ -1,0 +1,21 @@
+structure:
+  - type: directory
+    name: "u{WEEK_NUM}-{context}"
+    contents:
+      - type: directory
+        name: "assets"
+        contents:
+          - type: file
+            name: "README.md"
+            copy_from: ".templates_markdown_files/base_readme.md"
+      - type: file
+        name: "notebook{context}.ipynb"
+        content: {
+          "cells": [],
+          "metadata": {},
+          "nbformat": 4,
+          "nbformat_minor": 2
+        }
+      - type: file
+        name: "README.md"
+        copy_from: ".templates_markdown_files/base_readme.md"
